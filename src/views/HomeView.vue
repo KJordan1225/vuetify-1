@@ -17,6 +17,7 @@ import TheWelcome from '../components/TheWelcome.vue'
       <v-spacer></v-spacer>
 
       <v-btn
+        to="/buytickets"
         variant="outlined"
         size="small"
       >
@@ -24,6 +25,7 @@ import TheWelcome from '../components/TheWelcome.vue'
       </v-btn>
 
       <v-btn
+        to="/learnmore"
         variant="outlined"
         size="small"
       >
