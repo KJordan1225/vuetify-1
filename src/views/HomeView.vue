@@ -12,11 +12,25 @@ import TheWelcome from '../components/TheWelcome.vue'
     <v-toolbar density="compact">
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Title</v-toolbar-title>
+      <v-toolbar-title>Annual Raffle</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
+      <v-btn
+        variant="outlined"
+        size="small"
+      >
+        Buy Tickets
+      </v-btn>
+
+      <v-btn
+        variant="outlined"
+        size="small"
+      >
+        Learn More
+      </v-btn>
+
+      <!-- <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
 
@@ -26,7 +40,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
       <v-btn icon>
         <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-toolbar>
   <!-- </v-card> -->
 </template>
