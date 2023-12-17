@@ -2,7 +2,8 @@
 
 <div class="text-h1 text-red">
   <center>WIN $2000!</center>
-  <center>DRAWING: MARCH 15</center>
+  <center>RAFFLE DRAWING</center>
+  <center>MARCH 15</center>
 </div>
 
 
@@ -57,14 +58,30 @@
         </v-sheet>
       </v-col>
     </v-row>
-  </v-container>
-
-
-  
+  </v-container> 
   
   <br>
   <br>
+
+  <div class="text-h1 text-red">
+  <center>TICKETS ON SALE NOW!</center>
+  <center>$20 EACH</center>
+  </div>
+
+  <br>
+
+  <center>
+    <v-btn 
+      to="/buytickets"
+      color="red"
+      size="x-large"
+    >
+      Buy Tickets
+    </v-btn>
+  </center>
   
+
+  <br>
 
   <!-- CONTENT V-CARD -->
   <br>
