@@ -18,11 +18,19 @@
       </div>
     </v-carousel-item>
   </v-carousel>
+  <br>
+  <br>
+  <div style="width:800px; margin:0 auto;">
+    <section>
+      <iframe width="960" height="500" src="https://www.youtube.com/embed/f-yh37DM7Dw?si=BPY0aoXEiEcOYSbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+  </div>
 
   <!-- CONTENT V-CARD -->
   <br>
   <br>
-
+  <div style="width:800px; margin:0 auto;">
+  
   <v-card
     class="mx-auto"
     max-width="800"
@@ -71,6 +79,11 @@
       </v-btn>
     </v-card-actions>
   </v-card>
+  </div>
+
+  
+  <!-- https://youtu.be/f-yh37DM7Dw -->
+  
 </template>
 
 <script setup lang="ts">

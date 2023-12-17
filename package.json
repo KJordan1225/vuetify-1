@@ -11,7 +11,11 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "@types/express": "^4.17.21",
+    "v-playback": "^1.0.2",
+    "v-video-embed": "^1.0.8",
     "vue": "^3.3.11",
+    "vue-plyr": "^7.0.0",
     "vue-router": "^4.2.5",
     "vuetify": "^3.4.7"
   },
