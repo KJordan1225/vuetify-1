@@ -1,30 +1,70 @@
 <template>
-  <v-carousel 
-    :show-arrows="true"
-    cycle
-    height="400"
-    hide-delimiter-background
-  >
-    <v-carousel-item
-      v-for="(item,i) in items"
-      :key="i"
-      :src="item.source"
-      cover
-    >     
-      <div class="d-flex fill-height justify-center align-center">
-        <div class="text-h1 text-white" >
-          {{ item.slides }} Prize: {{ item.prizes }}          
+
+<div class="text-h1 text-red">
+  <center>WIN $2000!</center>
+  <center>DRAWING: MARCH 15</center>
+</div>
+
+
+
+<v-container class="bg-surface-variant">
+    <v-row no-gutters>
+      <v-col>
+        <v-sheet class="pa-2 ma-2">
+
+
+        <div>
+          <section>
+            <iframe width="500" height="400" src="https://www.youtube.com/embed/f-yh37DM7Dw?si=BPY0aoXEiEcOYSbh?autoplay=1" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowfullscreen>
+            </iframe>
+          </section>
         </div>
-      </div>
-    </v-carousel-item>
-  </v-carousel>
+
+
+
+        </v-sheet>
+      </v-col>
+      <v-col>
+        <v-sheet class="pa-2 ma-2">
+          
+
+          <v-carousel 
+            :show-arrows="true"
+            cycle
+            height="400"
+            hide-delimiter-background
+          >
+            <v-carousel-item
+              v-for="(item,i) in items"
+              :key="i"
+              :src="item.source"
+              cover
+            >     
+              <div class="d-flex fill-height justify-center align-center">
+                <div class="text-h1 text-white" >
+                  {{ item.slides }} Prize: {{ item.prizes }}          
+                </div>
+              </div>
+            </v-carousel-item>
+          </v-carousel>
+
+
+
+        </v-sheet>
+      </v-col>
+    </v-row>
+  </v-container>
+
+
+  
+  
   <br>
   <br>
-  <div style="width:800px; margin:0 auto;">
-    <section>
-      <iframe width="960" height="500" src="https://www.youtube.com/embed/f-yh37DM7Dw?si=BPY0aoXEiEcOYSbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </section>
-  </div>
+  
 
   <!-- CONTENT V-CARD -->
   <br>
@@ -70,11 +110,15 @@
     </v-card-text>
 
     <v-card-actions>
-      <v-btn color="orange">
+      <v-btn 
+        to="/buytickets"
+        color="orange">
         Buy Tickets
       </v-btn>
 
-      <v-btn color="orange">
+      <v-btn 
+        to="/learnmore"
+        color="orange">
         Learn More
       </v-btn>
     </v-card-actions>

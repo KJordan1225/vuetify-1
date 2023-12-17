@@ -3,7 +3,7 @@
     <div class="about">
       <h1>Redirecting to BUYTICKETS page.  If NOT redirected in 5 seconds <a href="https://google.com">[[CLICK HERE]]</a></h1>
     </div>
-  </template>
+</template>
   
   <style>
   @media (min-width: 1024px) {
