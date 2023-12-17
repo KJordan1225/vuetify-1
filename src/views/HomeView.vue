@@ -27,7 +27,7 @@
       return {
         items: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            src: 'http://localhost:5173/images/carousel/CASH.jpg',
             slides: 'First',
             prizes: '$2000',
           },
@@ -42,7 +42,7 @@
             prizes: '$500',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            src: 'http://localhost:5173/images/carousel/CASH-1.jpg',           
             slides: 'Fourth',
             prizes: '50" Smart TV',
           },
